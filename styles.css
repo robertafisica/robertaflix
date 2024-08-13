@@ -1,0 +1,54 @@
+element.style {
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(8, 8, 78);
+    font-color:yellow;
+}
+ section.titulo{
+    background: rgb(11, 40, 20);
+    font-color:white;
+ }
+ section.texto{
+    background-color: rgb(73, 176, 135);
+    font-color: white;
+    padding-left: 10px;
+ }
+ 
+section.links{ 
+    background-color: rgb(135, 168, 157);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid yellow;
+}
+.categoria{
+    padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+header {
+    border-bottom: solid 2px rgba(22, 96, 142, 0.869) padding: 20px;
+    padding: 10px;
+    font-size: 28px;
+    color: yellow;
+}
+.categoria h1 {
+    color:aliceblue;
+}
